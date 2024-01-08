@@ -1,8 +1,14 @@
 /* Shared common styles */
+*{
+        margin: 0;
+}
 body {
         font-family: 'Inter', sans-serif;
-        margin-left: 110px;
-        margin-bottom: 50px;
+
+}
+header, main{
+        margin-left: 118px;
+        margin-bottom: 58px;
 }
 
 
@@ -13,7 +19,8 @@ body {
         background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Banner\ Image.png);
         border-radius: 16px;
         background-repeat: no-repeat;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
+        margin-top:20px;
 
 }
 
@@ -38,9 +45,11 @@ body {
 }
 
 /* main section styles */
+
+/* main - offer section styles */
 .offer {
         text-align: center;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
 
 }
 
@@ -66,6 +75,7 @@ body {
         height: 500px;
 }
 
+/* main- greeting section styles */
 
 .greeting-section {
         width: 1320px;
@@ -73,11 +83,7 @@ body {
         border-radius: 16px;
         background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Vectorrr.png);
         background-repeat: no-repeat;
-        justify-content: center;
-        background-position: center;
         position: absolute;
-        margin-bottom: 200px;
-
 
 }
 
@@ -98,20 +104,283 @@ body {
         padding-top: 68.11px;
         padding-right: 138px;
         opacity: 0.8;
+        /* position: fixed; */
 }
 
 .greeting-description {
         color: rgba(255, 255, 255, 0.80);
         padding: 0 0 0 10%;
         max-width: 700px;
+        padding-top:10px;
 
 
 }
-.greeting-btn{
+
+.greeting-btn {
         margin: 48px 0 0 158px;
         background: none;
-        color:#fff;
+        color: #fff;
         border: 1px solid #fff;
         border-radius: 5px;
-        padding:10px
+        padding: 10px;
+
+}
+
+
+/* main- address section styles */
+.address-section {
+        margin-top: 200px;
+        width: 1320px;
+        height: 382px;
+        background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        ;
+        color: black;
+        border-radius: 16px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+}
+
+.address {
+        text-align: center;
+        padding: 5px;
+}
+
+.address-title {
+        color: #f32611
+}
+
+.address-btn {
+        margin-left: 608px;
+        border: none;
+        background-color: #f32611;
+        border-radius: 5px;
+        padding: 10px;
+        color: #fff;
+        margin-top: 50px;
+}
+
+/* main- new offer section styles */
+.new-offer-section {
+        width: 1320px;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+
+}
+
+.new-offer-msg {
+        color: #f32611;
+        font-size: 24px;
+        font-weight: 500;
+}
+
+.new-offer-title {
+        font-family: merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        padding: 5px;
+}
+
+.year-title {
+        color: #f32611;
+        font-size: 48px;
+        font-weight: 700;
+}
+
+.new-offer-description {
+        max-width: 300px;
+        color: darkgrey;
+        padding:10px;
+}
+
+.Celebration-img {
+        width: 350px;
+        height: 350px;
+        background-color: white;
+        border: 10px solid #f32611;
+        border-radius: 50%;
+        background-image: url(../Images/Ellipse\ 1.png);
+        background-size: 320px;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+/* main- Holidays section styles */
+.holidays-sale {
+        text-align: center;
+}
+
+.holidays-sale-sub-title {
+        font-size: 24px;
+        font-weight: 500px;
+}
+
+.holidays-sale-title {
+        font-size: 72px;
+        font-weight: 900;
+        font-family: Merriweather;
+}
+
+.holidays-sale-title-part {
+        color: #f32611;
+
+}
+
+.holidays-sale-description {
+        color: darkgrey;
+        padding-top:10px;
+        max-width: 700px;
+        margin-left: 350px;
+}
+
+
+.holidays-sale-imgs {
+        width: 1320px;
+        margin-top: 100px;
+
+}
+
+.holidays-sale-rectangle {
+        width: 1320px;
+        height: 229px;
+        background-color: red;
+        border-radius: 16px 0 16px 16px;
+        /* position: relative; */
+
+}
+
+.gift-img {
+        position: absolute;
+        width: 600px;
+        margin: 120px 0 0 100px
+}
+
+.holidays-sale-Celebration-img {
+        background: url(../Images/Rectangle\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top right;
+        position: relative;
+
+}
+
+.discount-img {
+        display: flex;
+        margin-left: auto;
+        margin-right: 150px;
+}
+
+/* main- portfolio section */
+.portfolio-section {
+        margin-top: 200px;
+}
+
+.portfolio-section-sub-title {
+        color: #f32611;
+        font-size: 24px;
+        font-weight: 500;
+}
+
+.portfolio-section-title {
+        font-family: merriweather;
+        font-size: 48px;
+        font-weight: 900;
+}
+
+.portfolio-section-description {
+        max-width: 700px;
+        padding:10px 0 10px 0;
+}
+
+.portfolio-section-img {
+        width: 424px;
+        height: 450px;
+        margin: 0 24px 24px 0;
+        border: 3px solid white;
+        border-radius: 20px;
+}
+
+.portfolio-section-img:hover {
+        border-color: #f32611;
+}
+
+/* main- subscribe section */
+.subscribe-section {
+        margin-top: 200px;
+        width: 1320px;
+        height: 536px;
+        background-color: #fff2f2;
+        border-radius: 16px;
+        text-align: center;
+        padding-top: 80px;
+
+
+}
+
+.subscribe-section-title {
+        font-family: merriweather;
+        font-size: 48px;
+        font-weight: 900;
+}
+
+.subscribe-section-description {
+        color: darkgray;
+        max-width: 700px;
+        margin-left: 300px;
+        padding:10px 0 10px 0;
+}
+
+
+.scarchBar {
+        width: 350px;
+        border: none;
+        padding: 15px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+}
+
+.subscribe-btn {
+        width: 150px;
+        border: none;
+        padding: 15px;
+        background-color: #f32611;
+        color: white;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+}
+
+/*Footer section styles  */
+.footer-section{
+        width: 100%;
+        height: 609px;
+        background-color: black;
+        background-size: cover;
+        margin-top: 200px;
+        color:white
+}
+.address-and-contact{
+        padding-top: 128px;
+        display: flex;
+        justify-content: space-between;
+        color:white;
+        margin:70px 60px 0 60px;
+
+        margin-bottom: 70px;
+}
+.social-midea{
+        /* margin: 40px; */
+        text-align: center;
+        margin:0px 150px 70px 150px;
+
+}
+.social-midea-img{
+        margin: 70px 20px 0 0;
+} 
+.copyright{
+        display: flex;
+        justify-content: space-between;
+        margin:70px 150px 0 150px;
+}
+hr{
+        border: 1px solid #2c2834;
 }
